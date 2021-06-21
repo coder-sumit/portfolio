@@ -1,0 +1,45 @@
+<!-- our work -->
+<section class="work">
+    <div class="container">
+        <h1 class="section-heading"> <span>Our</span> Work</h1>
+        <p>See Some Awesome Designs Developed By Us</p>
+
+        <div class="card-wrapper">
+            <div class="card">
+                <img src="img/ph-1.png" alt="phone">
+            </div>
+            <div class="card">
+                <img src="img/ph-1.png" alt="phone">
+            </div>
+            <div class="card">
+                <img src="img/ph-1.png" alt="phone">
+            </div>
+            <div class="card">
+                <img src="img/ph-1.png" alt="phone">
+            </div>
+            <div class="card">
+                <img src="img/ph-1.png" alt="phone">
+            </div>
+            <div class="card">
+                <img src="img/ph-1.png" alt="phone">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- style for this -->
+/* work section starts */
+  section.work .container h1+  p{
+    margin-bottom: 3rem;
+  }
+section.work .card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+}
+section.work .card-wrapper .card img{
+    border-radius: 10px;
+}
